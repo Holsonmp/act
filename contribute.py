@@ -92,7 +92,7 @@ def message(date):
 
 
 def contributions_per_day(args):
-    return randint(1, min(max(args.max_commits, 1), 20))
+    return randint(1, min(max(args.max_commits, 1), 30))
 
 
 def arguments(argsval):
